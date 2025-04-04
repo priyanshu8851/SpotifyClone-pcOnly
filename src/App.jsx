@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import './App.css';
 import { IoIosArrowDropleftCircle } from "react-icons/io";
-import { FaArrowCircleRight } from "react-icons/fa";
 import { IoIosArrowDropright } from "react-icons/io";
 import { HiMiniSpeakerWave } from "react-icons/hi2";
 import { FaPlay } from "react-icons/fa";
@@ -89,7 +88,6 @@ function App() {
             </div>
             <img src="./Profile.png" alt="profile-icon" className="profile-icon" />
           </div>
-
           <div className="spotify-mid">
             <h2>For You</h2>
             <div className="inp">
@@ -101,7 +99,6 @@ function App() {
               />
               <img src="./Frame.png" alt="" />
             </div>
-
             <div className="songs-area">
               <ul>
                 {songs.map((song) => (
@@ -121,7 +118,6 @@ function App() {
               </ul>
             </div>
           </div>
-
           <div className="spotify-right">
             <div className="sr-main">
               <div className="sr-head">
@@ -132,8 +128,6 @@ function App() {
               <div className="player">
                 <button>
                   <BsThreeDots />
-
-
                 </button>
                 <div className="mid-player">
                   <IoIosArrowDropleftCircle />
