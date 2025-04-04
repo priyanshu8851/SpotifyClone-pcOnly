@@ -136,21 +136,20 @@ function App() {
 
                 </button>
                 <div className="mid-player">
-                <IoIosArrowDropleftCircle />
+                  <IoIosArrowDropleftCircle />
                   <FaPlay />
-
-
-                <IoIosArrowDropright />
-
+                  <IoIosArrowDropright />
                 </div>
                 <button>
                   <HiMiniSpeakerWave />
-
                 </button>
               </div>
             </div>
           </div>
         </div>
+        <footer>
+        <p>Made By <a href="https://priyanshukashyap.netlify.app/">Priyanshu</a></p>
+        </footer>
       </div>
     </>
   );
